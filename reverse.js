@@ -1,6 +1,5 @@
 function fromPairs(arr) {
-  let obj = arr.reduce((acc, [key, value]) => ({ ...acc, [key]: value }), {});
-  return obj;
+  return arr.reduce((acc, [key, value]) => ({ ...acc, [key]: value }), {});
 }
 
 console.log(
